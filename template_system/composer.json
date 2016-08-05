@@ -1,0 +1,12 @@
+{
+    "name": "root/ticket_system",
+    "require": {
+        "php": "^7.0"
+    },
+    "authors": [
+        {
+            "name": "Ronny Lindner",
+            "email": "ronny@synatix-gmbh.de"
+        }
+    ]
+}
