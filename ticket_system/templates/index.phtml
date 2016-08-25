@@ -1,0 +1,42 @@
+<?php
+require_once __DIR__ . '/../includes/db.functions.php';
+require_once __DIR__ . '/../includes/pagination.functions.php';
+
+// Parameter zum Filtern und Sortieren
+$orderBy = $_GET['orderBy'] ?? 'id';
+$orderDirection = $_GET['orderDirection'] ?? 'ASC';
+$filter = $_GET['filter'] ?? array();
+$pageNum = $_GET['pageNum'] ?? 1;
+
+$allTickets = getAllTickets($orderBy, $orderDirection, $filter);
+$viewTickets = getViewTickets(5, $pageNum, $orderBy, $orderDirection);
+?>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Title:</th>
+        <th>Description:</th>
+        <th>Status:</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php
+    foreach ($viewTickets as $ticket) {
+    ?>
+        <tr>
+            <th scope="row"><?=$ticket['id']?></th>
+            <td><?=$ticket['title']?></td>
+            <td><?=$ticket['description']?></td>
+            <td><?=$ticket['status']?></td>
+        </tr>
+    <?php
+    }
+    ?>
+    </tbody>
+</table>
+
+<?php
+    echo renderPagination(5, $pageNum, count($allTickets));
+?>

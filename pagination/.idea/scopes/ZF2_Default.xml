@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="ZF2 Default" pattern="file:module/*/src/*.php||file:module/*/tests/*.php||file:module/*/Module.php" />
+</component>
