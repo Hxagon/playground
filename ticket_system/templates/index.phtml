@@ -8,9 +8,32 @@ $orderDirection = $_GET['orderDirection'] ?? 'ASC';
 $filter = $_GET['filter'] ?? array();
 $pageNum = $_GET['pageNum'] ?? 1;
 
+// Parameter zu einem String zusammensetzen, damit dieser u.A. an die Pagination weitergegeben werden kann
+$params = '?pageNum=' . $pageNum . '&orderBy=' . $orderBy . '&orderDirection=' . $orderDirection;
+
 $allTickets = getAllTickets($orderBy, $orderDirection, $filter);
 $viewTickets = getViewTickets(5, $pageNum, $orderBy, $orderDirection);
 ?>
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        Sortierung
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li class="dropdown-item"><a href="<?=$params?>">Id Absteigend</a></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Id Aufsteigend</a></li>
+        <li role="separator" class="dropdown-divider"></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Title Absteigend</a></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Title Aufsteigend</a></li>
+        <li role="separator" class="dropdown-divider"></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Beschreibung Absteigend</a></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Beschreibung Aufsteigend</a></li>
+        <li role="separator" class="dropdown-divider"></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Status Absteigend</a></li>
+        <li class="dropdown-item"><a href="<?=$params?>">Status Aufsteigend</a></li>
+    </ul>
+</div>
 
 <table class="table table-hover">
     <thead>

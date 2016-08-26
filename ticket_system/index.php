@@ -23,7 +23,7 @@ if (!file_exists($pageTemplate)) {
     <title>Ticket-System</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/twbs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css.map" rel="stylesheet">
 
 </head>
@@ -54,6 +54,14 @@ if (!file_exists($pageTemplate)) {
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script src="vendor/components/jquery/jquery.min.js"></script>
 <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="vendor/twbs/bootstrap/js/dist/dropdown.js"></script>
+
+<script>
+    $( document ).ready(function() {
+
+    });
+</script>
 </body>
 </html>

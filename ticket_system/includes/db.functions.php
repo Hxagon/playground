@@ -47,7 +47,7 @@ function getViewTickets($elementsPerPage, $currentPage, $orderBy, $orderDirectio
     $orderBy = validateOrderByParams($orderBy);
 
     $databaseHandle = getDbHandle();
-    $statement = 'SELECT * FROM tickets ORDER BY ' . $orderBy . ' ' . $orderDirection . ' LIMIT ' . ($elementsPerPage * ($currentPage - 1)) . ', ' . $elementsPerPage;
+    $statement = 'SELECT * FROM tickets ORDER BY ' . $orderBy . ' ' . $orderDirection . ' LIMIT ' . ($elementsPerPage * ($currentPage - 1)) . ', ' . $elementsPerPage;var_dump($statement);
     $query = $databaseHandle->query($statement);
     return $query->fetchAll();
 }

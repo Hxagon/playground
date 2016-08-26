@@ -4,9 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aa0fe5affb430fad5166617c31d62ce9",
-    "content-hash": "a1f7373cdb408fd2d61a95766d4e8121",
+    "hash": "8491448071e9a40311254f53ec3bda2c",
+    "content-hash": "3cd47a0b080f0b990bed0907409aee1e",
     "packages": [
+        {
+            "name": "components/jquery",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jquery.git",
+                "reference": "39192bee49ceb98f36e9592ee2fc5116a414b6cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jquery/zipball/39192bee49ceb98f36e9592ee2fc5116a414b6cc",
+                "reference": "39192bee49ceb98f36e9592ee2fc5116a414b6cc",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "jquery.js"
+                    ],
+                    "files": [
+                        "jquery.min.js",
+                        "jquery.min.map"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "John Resig",
+                    "email": "jeresig@gmail.com"
+                }
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2016-07-08 05:56:55"
+        },
         {
             "name": "twbs/bootstrap",
             "version": "v4.0.0-alpha.3",
