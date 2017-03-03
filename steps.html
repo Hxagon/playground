@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jquery.steps.js"></script>
+    <link href="jquery.steps.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="wizard">
+    <h1>First Step</h1>
+    <div>First Content</div>
+
+    <h1>Second Step</h1>
+    <div>Second Content</div>
+</div>
+
+<p><a href="javascript:void(0);" onclick="$('#wizard').steps('add', { title: 'test', content: 'moped'});">Add</a></p>
+<script>
+// Initialize wizard
+var wizard = $("#wizard").steps();
+
+
+</script>
+</body>
+</html>

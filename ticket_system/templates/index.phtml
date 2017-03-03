@@ -21,8 +21,8 @@ $viewTickets = getViewTickets(5, $pageNum, $orderBy, $orderDirection);
         <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-        <li class="dropdown-item"><a href="<?=$params?>">Id Absteigend</a></li>
-        <li class="dropdown-item"><a href="<?=$params?>">Id Aufsteigend</a></li>
+        <li class="dropdown-item"><a class="changeOrder" data-content="id_asc" href="<?=$params?>">Id Absteigend</a></li>
+        <li class="dropdown-item"><a class="changeOrder" data-content="id_desc" href="<?=$params?>">Id Aufsteigend</a></li>
         <li role="separator" class="dropdown-divider"></li>
         <li class="dropdown-item"><a href="<?=$params?>">Title Absteigend</a></li>
         <li class="dropdown-item"><a href="<?=$params?>">Title Aufsteigend</a></li>
@@ -63,3 +63,12 @@ $viewTickets = getViewTickets(5, $pageNum, $orderBy, $orderDirection);
 <?php
     echo renderPagination(5, $pageNum, count($allTickets));
 ?>
+
+<script>
+    $(document).ready(function() {
+        $('.changeOrder').click(function() {
+            var dataContent = $(this).data();
+            alert(dataContent);
+        })
+    })
+</script>

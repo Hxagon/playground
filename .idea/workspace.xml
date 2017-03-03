@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d77de518-91a3-4e8a-8b93-0eea46468717" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ByValueVsByReference/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_count_values.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_merge_test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fights/addTwoDigits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.steps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.steps.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/playground.iml" afterPath="$PROJECT_DIR$/.idea/playground.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket_system/composer.json" afterPath="$PROJECT_DIR$/ticket_system/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket_system/composer.lock" afterPath="$PROJECT_DIR$/ticket_system/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket_system/includes/db.functions.php" afterPath="$PROJECT_DIR$/ticket_system/includes/db.functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket_system/index.php" afterPath="$PROJECT_DIR$/ticket_system/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket_system/templates/index.phtml" afterPath="$PROJECT_DIR$/ticket_system/templates/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ticket_system/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/ticket_system/vendor/composer/installed.json" />
     </list>
     <ignored path="playground.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,83 +39,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Benchmark.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ByValueVsByReference/Benchmark.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <element signature="e#247#288#0#PHP" expanded="true" />
+                <element signature="e#388#429#0#PHP" expanded="true" />
+                <element signature="e#795#836#0#PHP" expanded="true" />
+                <element signature="e#1198#1252#0#PHP" expanded="true" />
+                <element signature="e#1412#1445#0#PHP" expanded="true" />
+                <element signature="e#1586#1618#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket_system/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-              <folding>
-                <marker date="1472194008743" expanded="true" signature="308:1866" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="315:812" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="820:1858" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="882:1144" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="969:1137" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="1006:1127" ph="..." />
-                <marker date="1472194008743" expanded="false" signature="1049:1056" ph="»" />
-                <marker date="1472194008743" expanded="true" signature="1187:1408" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="1298:1400" ph="..." />
-                <marker date="1472194008743" expanded="true" signature="1436:1514" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket_system/templates/index.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <marker date="1472195409856" expanded="true" signature="1900:2030" ph="..." />
-                <marker date="1472195409856" expanded="true" signature="1909:2017" ph="..." />
-                <marker date="1472195409856" expanded="true" signature="2042:2135" ph="..." />
-                <marker date="1472195409856" expanded="true" signature="2112:2135" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket_system/composer.json">
+        <entry file="file://$PROJECT_DIR$/ByValueVsByReference/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#36#115#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array_merge_test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array_merge_test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagination.functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ticket_system/includes/pagination.functions.php">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <marker date="1472137190257" expanded="true" signature="801:1097" ph="..." />
-                <marker date="1472137190257" expanded="true" signature="1382:1662" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ticket_system/includes/db.functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="49" column="187" selection-start-line="49" selection-start-column="187" selection-end-line="49" selection-end-column="187" />
-              <folding>
-                <element signature="e#447#534#0#PHP" expanded="true" />
-                <element signature="e#863#982#0#PHP" expanded="true" />
-                <element signature="e#1425#1469#0#PHP" expanded="true" />
-                <marker date="1472195729594" expanded="true" signature="710:741" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="710:758" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="710:759" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="1172:1194" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="1172:1220" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="1172:1250" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="1172:1299" ph="SELECT * FRO... tickets" />
-                <marker date="1472195729594" expanded="true" signature="1425:1469" ph="/** * @param... " />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,9 +127,16 @@
         <option value="$PROJECT_DIR$/ticket_system/includes/tickets.functions.php" />
         <option value="$PROJECT_DIR$/ticket_system/includes/pagination.functions.php" />
         <option value="$PROJECT_DIR$/ticket_system/composer.json" />
+        <option value="$PROJECT_DIR$/ticket_system/includes/db.functions.php" />
         <option value="$PROJECT_DIR$/ticket_system/index.php" />
         <option value="$PROJECT_DIR$/ticket_system/templates/index.phtml" />
-        <option value="$PROJECT_DIR$/ticket_system/includes/db.functions.php" />
+        <option value="$PROJECT_DIR$/steps.html" />
+        <option value="$PROJECT_DIR$/array_count_values.php" />
+        <option value="$PROJECT_DIR$/fights/addTwoDigits.php" />
+        <option value="$PROJECT_DIR$/ByValueVsByReference/Benchmark.php" />
+        <option value="$PROJECT_DIR$/ByValueVsByReference/index.php" />
+        <option value="$PROJECT_DIR$/array_merge_test.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -171,7 +153,9 @@
     </order>
   </component>
   <component name="PhpServers">
-    <servers />
+    <servers>
+      <server host="playground.local" id="59cb4f95-8ead-475d-a2a7-1af4de8adbb5" name="playground.local" />
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7" />
   <component name="ProjectFrameBounds">
@@ -180,16 +164,7 @@
     <option name="width" value="1873" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -199,7 +174,7 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -213,198 +188,8 @@
               <option name="myItemId" value="playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twbs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twbs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="twbs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="playground" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticket_system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,14 +206,17 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/template_system" />
-      <recent name="$PROJECT_DIR$/forms/public/templates/css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/TemplateSystem/Application" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/template_system" />
+      <recent name="$PROJECT_DIR$/forms/public/templates/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -443,6 +231,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -453,11 +247,11 @@
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -470,7 +264,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -508,12 +302,17 @@
       <workItem from="1470637139919" duration="23000" />
       <workItem from="1472032724391" duration="7823000" />
       <workItem from="1472109480385" duration="1215000" />
-      <workItem from="1472111497003" duration="11241000" />
+      <workItem from="1472111497003" duration="11819000" />
+      <workItem from="1473943303779" duration="3269000" />
+      <workItem from="1474460386109" duration="2992000" />
+      <workItem from="1485238453946" duration="1743000" />
+      <workItem from="1487173691893" duration="1574000" />
+      <workItem from="1488527239438" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28473000" />
+    <option name="totallyTimeSpent" value="38673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1967" y="24" width="1873" height="1056" extended-state="6" />
@@ -523,21 +322,26 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.2605364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1081" y="249" width="476" height="499" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="3887" y="115" width="1363" height="632" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.2605364" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="1081" y="389" width="476" height="499" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="3887" y="171" width="1363" height="632" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" x="3887" y="24" width="1873" height="1056" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.4958949" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -552,19 +356,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/fights/addTwoDigits.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/fights/addTwoDigits.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/index_template.phtml" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/header.phtml" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/body.phtml" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/footer.phtml" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/Application/Classes/TemplateSystem.php" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/public/index.php" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/Application/Config/general.config.php" />
-    <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/index_template.phtml" />
     <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/header.phtml" />
     <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/body.phtml" />
     <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/footer.phtml" />
@@ -581,13 +389,6 @@
     <entry file="file://$PROJECT_DIR$/forms/public/index.php" />
     <entry file="file://$PROJECT_DIR$/forms/classes/Layout.php" />
     <entry file="file://$PROJECT_DIR$/forms/public/templates/layout.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template_system/templates/layout.phtml" />
     <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/body.phtml" />
     <entry file="file://$PROJECT_DIR$/TemplateSystem/templates/layout/footer.phtml" />
@@ -606,215 +407,127 @@
     <entry file="file://$PROJECT_DIR$/TemplateSystem/public/index.php" />
     <entry file="file://$PROJECT_DIR$/ticket_system/public/index.php" />
     <entry file="file://$PROJECT_DIR$/ticket_system/public/assets/css/main.css" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="1166" column="20" selection-start-line="1166" selection-start-column="20" selection-end-line="1166" selection-end-column="20" />
-          <folding>
-            <element signature="e#35#270#0#PHP" expanded="true" />
-            <element signature="e#343#460#0#PHP" expanded="true" />
-            <element signature="e#476#573#0#PHP" expanded="true" />
-            <element signature="e#599#699#0#PHP" expanded="true" />
-            <element signature="e#725#828#0#PHP" expanded="true" />
-            <element signature="e#853#979#0#PHP" expanded="true" />
-            <element signature="e#1004#1112#0#PHP" expanded="true" />
-            <element signature="e#1137#1271#0#PHP" expanded="true" />
-            <element signature="e#1297#1517#0#PHP" expanded="true" />
-            <element signature="e#1560#1642#0#PHP" expanded="true" />
-            <element signature="e#1673#1757#0#PHP" expanded="true" />
-            <element signature="e#1787#1912#0#PHP" expanded="true" />
-            <element signature="e#1946#2076#0#PHP" expanded="true" />
-            <element signature="e#2111#2237#0#PHP" expanded="true" />
-            <element signature="e#2272#2403#0#PHP" expanded="true" />
-            <element signature="e#2439#2613#0#PHP" expanded="true" />
-            <element signature="e#2648#3003#0#PHP" expanded="true" />
-            <element signature="e#3029#3377#0#PHP" expanded="true" />
-            <element signature="e#3404#3635#0#PHP" expanded="true" />
-            <element signature="e#3660#3905#0#PHP" expanded="true" />
-            <element signature="e#3931#4155#0#PHP" expanded="true" />
-            <element signature="e#4180#4492#0#PHP" expanded="true" />
-            <element signature="e#4519#4701#0#PHP" expanded="true" />
-            <element signature="e#4729#5041#0#PHP" expanded="true" />
-            <element signature="e#5068#5281#0#PHP" expanded="true" />
-            <element signature="e#5307#5490#0#PHP" expanded="true" />
-            <element signature="e#5517#5692#0#PHP" expanded="true" />
-            <element signature="e#5723#5818#0#PHP" expanded="true" />
-            <element signature="e#5851#6055#0#PHP" expanded="true" />
-            <element signature="e#6086#6208#0#PHP" expanded="true" />
-            <element signature="e#6244#6492#0#PHP" expanded="true" />
-            <element signature="e#6528#6668#0#PHP" expanded="true" />
-            <element signature="e#6706#7053#0#PHP" expanded="true" />
-            <element signature="e#7081#7261#0#PHP" expanded="true" />
-            <element signature="e#7292#7633#0#PHP" expanded="true" />
-            <element signature="e#7662#7799#0#PHP" expanded="true" />
-            <element signature="e#7827#7981#0#PHP" expanded="true" />
-            <element signature="e#8009#8204#0#PHP" expanded="true" />
-            <element signature="e#8239#8438#0#PHP" expanded="true" />
-            <element signature="e#8473#8663#0#PHP" expanded="true" />
-            <element signature="e#8730#8877#0#PHP" expanded="true" />
-            <element signature="e#8902#9078#0#PHP" expanded="true" />
-            <element signature="e#9110#9393#0#PHP" expanded="true" />
-            <element signature="e#9421#9544#0#PHP" expanded="true" />
-            <element signature="e#9578#9805#0#PHP" expanded="true" />
-            <element signature="e#9871#10193#0#PHP" expanded="true" />
-            <element signature="e#10232#10558#0#PHP" expanded="true" />
-            <element signature="e#10599#10912#0#PHP" expanded="true" />
-            <element signature="e#11014#11092#0#PHP" expanded="true" />
-            <element signature="e#11130#11208#0#PHP" expanded="true" />
-            <element signature="e#11248#11537#0#PHP" expanded="true" />
-            <element signature="e#11567#11770#0#PHP" expanded="true" />
-            <element signature="e#11801#11995#0#PHP" expanded="true" />
-            <element signature="e#12028#12148#0#PHP" expanded="true" />
-            <element signature="e#12176#12275#0#PHP" expanded="true" />
-            <element signature="e#12301#12400#0#PHP" expanded="true" />
-            <element signature="e#12508#12979#0#PHP" expanded="true" />
-            <element signature="e#13007#13145#0#PHP" expanded="true" />
-            <element signature="e#13175#13321#0#PHP" expanded="true" />
-            <element signature="e#13352#13491#0#PHP" expanded="true" />
-            <element signature="e#13522#13660#0#PHP" expanded="true" />
-            <element signature="e#13690#13853#0#PHP" expanded="true" />
-            <element signature="e#13882#14090#0#PHP" expanded="true" />
-            <element signature="e#14119#14356#0#PHP" expanded="true" />
-            <element signature="e#14386#14602#0#PHP" expanded="true" />
-            <element signature="e#14631#15285#0#PHP" expanded="true" />
-            <element signature="e#15333#15579#0#PHP" expanded="true" />
-            <element signature="e#15621#15954#0#PHP" expanded="true" />
-            <element signature="e#15996#16184#0#PHP" expanded="true" />
-            <element signature="e#16229#16497#0#PHP" expanded="true" />
-            <element signature="e#16544#16853#0#PHP" expanded="true" />
-            <element signature="e#16901#17082#0#PHP" expanded="true" />
-            <element signature="e#17120#17257#0#PHP" expanded="true" />
-            <element signature="e#17299#17460#0#PHP" expanded="true" />
-            <element signature="e#17500#17664#0#PHP" expanded="true" />
-            <element signature="e#17740#17910#0#PHP" expanded="true" />
-            <element signature="e#17948#18128#0#PHP" expanded="true" />
-            <element signature="e#18164#18410#0#PHP" expanded="true" />
-            <element signature="e#18486#18556#0#PHP" expanded="true" />
-            <element signature="e#19305#19593#0#PHP" expanded="true" />
-            <element signature="e#19665#20870#0#PHP" expanded="true" />
-            <element signature="e#20950#21165#0#PHP" expanded="true" />
-            <element signature="e#21208#21411#0#PHP" expanded="true" />
-            <element signature="e#21444#21652#0#PHP" expanded="true" />
-            <element signature="e#21687#21927#0#PHP" expanded="true" />
-            <element signature="e#21967#22221#0#PHP" expanded="true" />
-            <element signature="e#22278#23332#0#PHP" expanded="true" />
-            <element signature="e#23373#24159#0#PHP" expanded="true" />
-            <element signature="e#24253#25113#0#PHP" expanded="true" />
-            <element signature="e#25164#26589#0#PHP" expanded="true" />
-            <element signature="e#26625#28109#0#PHP" expanded="true" />
-            <element signature="e#28145#28881#0#PHP" expanded="true" />
-            <element signature="e#28930#29453#0#PHP" expanded="true" />
-            <element signature="e#29603#29918#0#PHP" expanded="true" />
-            <element signature="e#29973#30139#0#PHP" expanded="true" />
-            <element signature="e#30185#30209#0#PHP" expanded="true" />
-            <element signature="e#30235#31086#0#PHP" expanded="true" />
-            <element signature="e#31150#32366#0#PHP" expanded="true" />
-            <element signature="e#32480#33677#0#PHP" expanded="true" />
-            <element signature="e#33804#34659#0#PHP" expanded="true" />
-            <element signature="e#34762#35486#0#PHP" expanded="true" />
-            <element signature="e#35569#35791#0#PHP" expanded="true" />
-            <element signature="e#35826#36486#0#PHP" expanded="true" />
-            <element signature="e#36542#38633#0#PHP" expanded="true" />
-            <element signature="e#38741#39253#0#PHP" expanded="true" />
-            <element signature="e#39340#39728#0#PHP" expanded="true" />
-            <element signature="e#39764#40600#0#PHP" expanded="true" />
-            <element signature="e#40636#40908#0#PHP" expanded="true" />
-            <element signature="e#40965#41189#0#PHP" expanded="true" />
-            <element signature="e#41238#41588#0#PHP" expanded="true" />
-            <element signature="e#41626#43454#0#PHP" expanded="true" />
-            <element signature="e#43501#43829#0#PHP" expanded="true" />
-            <element signature="e#43873#44130#0#PHP" expanded="true" />
-            <element signature="e#44167#44426#0#PHP" expanded="true" />
-            <element signature="e#44464#44663#0#PHP" expanded="true" />
-            <element signature="e#44809#45118#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket_system/includes/tickets.functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php" />
+    <entry file="file://$PROJECT_DIR$/ticket_system/includes/tickets.functions.php" />
     <entry file="file://$PROJECT_DIR$/ticket_system/vendor/twbs/bootstrap/js/dist/dropdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket_system/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <marker date="1472194008743" expanded="true" signature="308:1866" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="315:812" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="820:1858" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="882:1144" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="969:1137" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="1006:1127" ph="..." />
-            <marker date="1472194008743" expanded="false" signature="1049:1056" ph="»" />
-            <marker date="1472194008743" expanded="true" signature="1187:1408" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="1298:1400" ph="..." />
-            <marker date="1472194008743" expanded="true" signature="1436:1514" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ticket_system/templates/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1472195409856" expanded="true" signature="1900:2030" ph="..." />
-            <marker date="1472195409856" expanded="true" signature="1909:2017" ph="..." />
-            <marker date="1472195409856" expanded="true" signature="2042:2135" ph="..." />
-            <marker date="1472195409856" expanded="true" signature="2112:2135" ph="..." />
-          </folding>
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticket_system/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticket_system/includes/pagination.functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1472137190257" expanded="true" signature="801:1097" ph="..." />
-            <marker date="1472137190257" expanded="true" signature="1382:1662" ph="..." />
-          </folding>
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ticket_system/includes/db.functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="49" column="187" selection-start-line="49" selection-start-column="187" selection-end-line="49" selection-end-column="187" />
+        <state relative-caret-position="594">
+          <caret line="44" column="16" lean-forward="false" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticket_system/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ticket_system/templates/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="54" column="43" lean-forward="false" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.steps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.steps.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_count_values.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding>
-            <element signature="e#447#534#0#PHP" expanded="true" />
-            <element signature="e#863#982#0#PHP" expanded="true" />
-            <element signature="e#1425#1469#0#PHP" expanded="true" />
-            <marker date="1472195729594" expanded="true" signature="710:741" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="710:758" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="710:759" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="1172:1194" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="1172:1220" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="1172:1250" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="1172:1299" ph="SELECT * FRO... tickets" />
-            <marker date="1472195729594" expanded="true" signature="1425:1469" ph="/** * @param... " />
+            <element signature="e#6#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fights/addTwoDigits.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByValueVsByReference/Benchmark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#247#288#0#PHP" expanded="true" />
+            <element signature="e#388#429#0#PHP" expanded="true" />
+            <element signature="e#795#836#0#PHP" expanded="true" />
+            <element signature="e#1198#1252#0#PHP" expanded="true" />
+            <element signature="e#1412#1445#0#PHP" expanded="true" />
+            <element signature="e#1586#1618#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ByValueVsByReference/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#115#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_merge_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
