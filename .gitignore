@@ -1,2 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
+.idea/
+/php_errors.log
+Würde hugo_test/archetypes/ löschen
+Würde hugo_test/data/ löschen
+Würde hugo_test/layouts/ löschen
+Würde php_errors.log löschen
